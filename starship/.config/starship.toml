@@ -1,0 +1,36 @@
+format = """ $os$character$directory$git_branch"""
+right_format = """$python"""
+
+add_newline = false
+
+[os]
+disabled = false
+style = "white"
+format = "[$symbol]($style) "
+
+[os.symbols]
+Fedora = " "
+Arch = " "
+CachyOS = " "
+Ubuntu = " "
+Macos = " "
+
+[character]
+success_symbol = "[➜](green)"
+error_symbol = "[➜](red)"
+format = "$symbol "
+
+[directory]
+truncation_length = 1
+fish_style_pwd_dir_length = 1
+truncate_to_repo = false
+style = "cyan"
+format = "[$path]($style) "
+
+[git_branch]
+format = "[git:\\(](blue)[$branch](red)[\\)](blue) "
+
+[python]
+symbol = " "
+style = "blue"
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'

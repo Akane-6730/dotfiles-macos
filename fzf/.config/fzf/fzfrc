@@ -1,0 +1,11 @@
+--height=40%
+--layout=reverse
+--border
+--no-scrollbar
+--info=inline
+--pointer=➜
+--marker=✓
+--gutter=' '
+--color=bg+:-1,gutter:-1,pointer:cyan,marker:green,spinner:magenta,header:blue
+--walker-skip=.git,node_modules,Library,__pycache__,.venv,.cache,.idea,.vscode,.vscode-server,OrbStack
+--bind='ctrl-/:change-preview-window(down|hidden|)'

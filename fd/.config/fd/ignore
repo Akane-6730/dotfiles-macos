@@ -1,0 +1,14 @@
+# fd/fzf global ignore (gitignore syntax)
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.pyc
+__pycache__/
+node_modules/
+.venv/
+venv/
+.cache/
+.sass-cache/
+Library/
+OrbStack/
